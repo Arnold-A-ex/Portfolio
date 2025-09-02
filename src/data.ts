@@ -3,6 +3,7 @@ import cloudpeek from "./images/project-images/cloudpeek.png";
 import byteBackBargains from "./images/project-images/back-byte-bargains.png";
 import ticTacToe from "./images/project-images/tic-tac-toe.png";
 import chronosTasks from "./images/project-images/chronos-tasks.png";
+import portfolio from "./images/project-images/portfolio.png";
 
 export interface ProjectsType {
     title: string;
@@ -36,6 +37,25 @@ export const projects: ProjectsType[] = [
         liveUrl: "https://cloud-peek.netlify.app/",
     },
     {
+        title: "Tic-Tac-Toe",
+        description: "A classic Tic-Tac-Toe game built with React. It features a multiplayer mode against another person and a single-player mode against an AI. The game includes win and tie detection, an undo function, and a restart option.",
+        features: [
+            "Multiplayer mode (Player vs. Player)",
+            "Single-player mode (Player vs. AI)",
+            "Win and tie detection logic",
+            "Undo and Restart game functions",
+        ],
+        techStack: [
+            "React",
+            "React Icons",
+            "React Confetti",
+            "CSS"
+        ],
+        imageUrl: ticTacToe,
+        githubUrl: "https://github.com/Arnold-A-ex/Tic-Tac-Toe",
+        liveUrl: "https://web-tic-tac.netlify.app/",
+    },
+    {
         title: "Byte-Back-Bargains",
         description: "A single-page application (SPA) built with React.js that simulates a complete e-commerce experience. It allows users to browse products, manage a shopping cart, and use an authentication system. The application is also designed with a responsive layout to work on different devices.",
         features: [
@@ -56,23 +76,26 @@ export const projects: ProjectsType[] = [
         liveUrl: "https://byte-back-bargains.netlify.app/",
     },
     {
-        title: "Tic-Tac-Toe",
-        description: "A classic Tic-Tac-Toe game built with React. It features a multiplayer mode against another person and a single-player mode against an AI. The game includes win and tie detection, an undo function, and a restart option.",
+        title: "Portfolio",
+        description: "A modern, responsive portfolio built with React, TypeScript, Vite, and Tailwind CSS. It showcases projects, skills, and contact information with smooth animations.",
         features: [
-            "Multiplayer mode (Player vs. Player)",
-            "Single-player mode (Player vs. AI)",
-            "Win and tie detection logic",
-            "Undo and Restart game functions",
+            "Showcases projects, skills, and contact information",
+            "Modern and responsive design",
+            "Uses animations for an enhanced user experience"
         ],
         techStack: [
             "React",
-            "React Icons",
-            "React Confetti",
-            "CSS"
+            "TypeScript",
+            "Vite",
+            "Tailwind CSS",
+            "Framer Motion",
+            "React Router DOM",
+            "Lucide Icons",
+            "OpenWeatherMap API"
         ],
-        imageUrl: ticTacToe,
-        githubUrl: "https://github.com/Arnold-A-ex/Tic-Tac-Toe",
-        liveUrl: "https://web-tic-tac.netlify.app/",
+        imageUrl: portfolio,
+        githubUrl: "https://github.com/Arnold-A-ex/Portfolio",
+        liveUrl: "https://esimnachi.netlify.app/"
     },
     {
     title: "Chronos-Tasks",

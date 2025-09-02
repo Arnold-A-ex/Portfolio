@@ -14,7 +14,7 @@ A modern, responsive portfolio website built with React, TypeScript, Vite, and T
 
 ## Demo
 
-[Live Site](https://your-portfolio-live-link.com)
+[Live Site](https://esimnachi.netlify.app/)
 
 ## Getting Started
 
@@ -84,6 +84,7 @@ react-portfolio/
 - Tailwind CSS
 - Framer Motion (animations)
 - React Router DOM
+-react icons
 
 ## Credits
 
@@ -96,6 +97,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
-**Esimnachi Ukaegbu**  
-[LinkedIn](https://www.linkedin.com/in/your-link) | [Email](mailto:your@email.com)
+**Esimnachi Ukaegbu**
+[LinkedIn](https://linkedin.com/in/esimnachi-ukaegbu-aa090524b?utm_source=share&utm_campaign=share_via&utm_content=profile) | [Email](mailto:esimnachi10.com)
 
