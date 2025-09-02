@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --text-primary: #242424;
+    --text-secondary: #3b3E43;
+    --bg: #E4E4E4;
+    --card-bg: #F9F9F9;
+    --accent: #673CC1;
+    --accent-text: #242424;
+    --danger: #FF474D;
+    --gradient: linear-gradient(75deg, var(--bg), var(--text-primary), var(--accent), var(--accent));
+}
+.dark{
+    --text-primary: #E4E4E4;
+    --text-secondary: #94a3b8;
+    --bg: #212429;
+    --card-bg: #282B30;
+    --accent: #64FCF0;
+    --accent-text: #212429;
+    --danger: #FF474D;
+    --gradient: linear-gradient(75deg, var(--bg), var(--text-primary), var(--accent), var(--accent));
+}
+/* former dark text-secondary 
+#959796 */
