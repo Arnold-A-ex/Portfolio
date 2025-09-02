@@ -72,7 +72,7 @@ const AboutSection = () => {
             whileInView="show"
             viewport= { { once: true, amount: 0.5} }
             exit="exit"
-            className="grid grid-cols-1 lg:grid-cols-[550px_1fr]  bg-background text-secondary p-8 pr-10 my-8"
+            className="grid grid-cols-1 xl:grid-cols-[550px_1fr]  bg-background text-secondary p-8 pr-10 my-8"
         >
             <motion.div className="flex items-center justify-center mb-4">
                 <img src={ avatar } alt="developer-avatar" className="mx-auto" />

@@ -52,7 +52,7 @@ const SkillsSection = () => {
             className=" bg-background text-secondary p-8 pr-10 my-8"
         >
             <h2 className="text-4xl font-bold text-center text-primary mb-12 font-outfit">My Skills</h2>
-            <motion.div variants={page} className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+            <motion.div variants={page} className="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-3">
                 { skillsElement }
             </motion.div>
             <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.05 } }} className="mt-8 flex justify-center">

@@ -54,7 +54,7 @@ const Projects: React.FC<ProjectProps> = ( {projects} ) => {
             className="py-16 p-8">
             <motion.div variants={ page } className="container mx-auto">
                 <h2 className="text-4xl font-bold text-center text-primary mb-12 font-outfit">My Projects</h2>
-                <motion.div variants={page} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <motion.div variants={page} className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                     { projectsElement }
                 </motion.div>
             </motion.div>
