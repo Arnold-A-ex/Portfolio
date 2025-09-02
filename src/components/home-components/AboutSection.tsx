@@ -70,7 +70,7 @@ const AboutSection = () => {
             variants ={ page }
             initial="hidden"
             whileInView="show"
-            viewport= { { once: true, amount: 0.5} }
+            viewport= { { once: true, amount: 0.25} }
             exit="exit"
             className="grid grid-cols-1 xl:grid-cols-[550px_1fr]  bg-background text-secondary p-8 pr-10 my-8"
         >

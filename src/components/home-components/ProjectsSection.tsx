@@ -50,7 +50,7 @@ const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
             variants={page}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, amount: 0.35}}
+            viewport={{ once: true, amount: 0.25}}
             exit="exit"
             className="my-9 p-8"
         >
