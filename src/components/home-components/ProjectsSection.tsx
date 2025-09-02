@@ -60,7 +60,7 @@ const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
                 { projectsElement }
             </motion.div>
             <motion.div whileHover={{ scale: 1.1, transition: { duration: 0.05 } }}className="mt-8 flex justify-center">
-                <Link to="about" className=" bg-[linear-gradient(75deg,var(--accent),var(--accent),var(--card-bg),var(--card-bg))] bg-left bg-[length:400%_100%] text-background py-3 px-6 rounded-full font-semibold hover:-translate-y-2 transition-[background-position] duration-500 ease-out hover:bg-right hover:text-primary shadow-lg my-6">See All</Link>
+                <Link to="projects" className=" bg-[linear-gradient(75deg,var(--accent),var(--accent),var(--card-bg),var(--card-bg))] bg-left bg-[length:400%_100%] text-background py-3 px-6 rounded-full font-semibold hover:-translate-y-2 transition-[background-position] duration-500 ease-out hover:bg-right hover:text-primary shadow-lg my-6">See All</Link>
             </motion.div>
         </motion.section>
     )
